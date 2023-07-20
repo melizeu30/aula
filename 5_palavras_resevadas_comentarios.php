@@ -2,9 +2,7 @@
   // palavras reservadas
 
 
- function verdade(){
-
-   
+ function verdade(){   
   
     return true;
      

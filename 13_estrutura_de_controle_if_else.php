@@ -18,6 +18,9 @@
         echo "<br>";        
     }else{
         echo "Não tem resposta para os dados apresentados";
-    }    
+    }  
+    
+    
+    ## podemos fazer if aninhado
 
 ?>
