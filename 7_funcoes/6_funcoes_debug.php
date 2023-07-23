@@ -8,9 +8,12 @@
         false,
     ];
 
+    echo"<br><br>";
     print_r($lista);
     echo"<br><br>";
     var_dump($lista);
+
+
 
     # apresentam a mesma forma o var_dump e mais completo ele segrega os dados
 
