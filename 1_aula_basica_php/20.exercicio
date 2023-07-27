@@ -1,0 +1,21 @@
+			        Exercício lógica de programação usando PHP
+
+1.	Um carro passou a 120 km/h outro carro 111k/h em uma via que permitia 110km/h nessa via tem um sinalizador que pegou registrou a passagem do carro, criar em PHP um sistema irá imitir ou não multa para os donos dos veículos, tolerância de 3% de erro no sistema.
+
+2.	Um cinema tem 500 vagas para na sala, no momento da compra o sistema verificou que as vagas estão lotadas criar um logica que o sistema avise o usuário que não há vagas disponíveis.
+
+3.	Eleitores são obrigados a voltarem, entretanto, maiores que 18 anos e menor que 65 anos são obrigados a voltarem de 16 anos menores que 18 anos não são obrigados a voltarem, desenvolver em php um sistema que simule a lei atual.
+
+4.	Verificar se os dados fornecidos formam um triângulo se ele e equilátero, isósceles e escaleno
+
+5.	Uma faculdade adotou novo método de avaliação aumento até 100 pontos e média para passar 70 pontos, sendo seguinte critério abaixo de 70 reprovação, acima de 70 aprovação, abaixo de 30 reprovação direta, entre 31 até 69 recuperação 
+
+6.	Imprimir em ordem crescentes os valores de 1 até 100 em php.
+
+7.	Imprimir em ordem decrescente os valores de 100 até 0 em php.
+
+8.	Imprimir em ordem crescente os números pares e ímpares e verificar a soma dos ímpares e pares.
+
+9.	Verificar de 1 até 100000(dez mil quantos números primos existem) imprima cada um e soma de todos os números primos.
+
+10.	Calcular em Celsius a unidade fornecida em Fahrenheit, C/5 = F-32/9, 100 Fahrenheit = 37,77 Celsius.

@@ -9,15 +9,15 @@
         public $rabo = "longo";
         public $cor = "preto";
 
-        function latir(){ // metodo latir
+        function latir(){ // método latir
             echo"auauauauau!!! <br>";
         }
 
-        function miar(){// metado miar
+        function miar(){// método miar
             echo"miaumiua <br>";
         }
 
-        function andar($m){
+        function andar($m){// método andar
             echo"Andou $m metros <br>";
         }
 

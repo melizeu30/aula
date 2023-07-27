@@ -2,14 +2,14 @@
 
     class Produto{
         public $volt;  // podemos chamar propriedades com o this
-        public $cor;
+        public $cor; 
 
         function voltagem($volt){
             $this->volt  = $volt;   // voltagem desse objeto e o nome que vem do parametro da função
         }
 
         function cor($cor){
-            $this->cor = $cor;
+            $this->cor = $cor; // podemos chamar as propriedades com this e modificar valores 
         }
 
         function transporteNormal(){
@@ -23,7 +23,7 @@
 
     }
 
-    $geladeira = new Produto;
+    $geladeira = new Produto;  // palavra new e usada para instancia um objeto da classe produto
 
     $geladeira->voltagem(220);
     $geladeira->cor("Branca");
