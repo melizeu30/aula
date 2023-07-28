@@ -13,12 +13,7 @@
 
          echo $salario + $ajudadedecusto . "<br>";
 
-
-
-
-    }
-
-    
+    }    
     somar();
     somar();
 
