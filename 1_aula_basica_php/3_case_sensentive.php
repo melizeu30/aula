@@ -1,13 +1,13 @@
 <?php
 
 
-    // não e case sentive
+    // O php não diferencia case nas palavras reservadas as duas maneiras estão corretas
 
     echo "MARCIO <br> <br>";
     ECHO "MARCIO <br>  <br> ";
 
 
-    // case sentive
+   
     $nome="MARCIO";
 
     echo $nome;
