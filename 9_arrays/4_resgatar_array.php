@@ -17,8 +17,7 @@
     echo"<br>";
     
 
-    #Resgatar e remover elementos de array
-    
+    #Resgatar e remover elementos de array    
     $removidos = array_splice($lista, 5 );#primeiro indice inicial e a quantidade de elementos nesse casso remover os elementos de fato  resultado [6,7,8,9,10];
     print_r($removidos);
     echo"<br>";

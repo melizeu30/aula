@@ -39,7 +39,6 @@
 
 
     // Posso retorna parametro defult
-
     function teste($a = "produto "){
 
         echo "O departamento do $a e ... <br>";
