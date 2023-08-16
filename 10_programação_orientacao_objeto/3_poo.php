@@ -17,9 +17,13 @@
 
 
     $max = new Animal;
-    echo $max::patas." <br>";
-    
+    echo $max::patas." <br>";    
     $max->acessarConstante();
+
+
+
+
+
 
 
 

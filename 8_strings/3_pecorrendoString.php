@@ -1,14 +1,18 @@
 <?php
 
-    $texto ="Ano de 2023 foi muito proveitoso né";
+    $texto ="Ano de 2023 foi muito proveitoso ne";
 
-    for( $i=0;  $i <strlen($texto); $i++ ) {
+
+    $soma=0;
+    for( $i=0;  $i<strlen($texto); $i++ ) {
 
         echo "$texto[$i] <br>";
         # como um array
+        $soma++;
 
 
     }
+    echo $soma;
 
 
 

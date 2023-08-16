@@ -9,7 +9,7 @@
     echo"<br>";
     echo"<br>";
 
-    $encontrar1 = strpos($nomes, "Java");
+    $encontrar1 = strpos($nomes,"Java");
     echo"<br>";
 
     if($encontrar1 === false){

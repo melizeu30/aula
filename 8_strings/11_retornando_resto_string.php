@@ -1,6 +1,8 @@
 <?php
 
-    $texto = "Vendo se o resto da string vai da ok";
+    $texto = "Vendo se o resto da string vai da ok <br>";
+    echo $texto;
+    echo "RESULTADO <BR>";
 
     $rest = strstr($texto,"resto");
 
@@ -9,4 +11,4 @@
 
     $rest2 = strstr($rest, $r);
 
-    echo
+  

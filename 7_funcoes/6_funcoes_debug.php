@@ -14,7 +14,6 @@
     var_dump($lista);
 
 
-
     # apresentam a mesma forma o var_dump e mais completo ele segrega os dados
 
 

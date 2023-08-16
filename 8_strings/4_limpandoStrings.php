@@ -1,12 +1,14 @@
 <?php
 
-    $nome = "   MARCOS    ANDRE DA    SILVA      .<br>";
+    $nome ="      MARCOS       ANDRE     DA       SILVA      .<br>";
 
-    echo $nome;
-    
+    echo $nome;    
 
     $non = trim($nome);
     echo $non;
+
+
+    
 
 
 

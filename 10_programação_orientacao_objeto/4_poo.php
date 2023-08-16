@@ -1,8 +1,14 @@
 <?php
     // temos 3 visibilidades 
-    // public,  não há protecão pode ser acessada de qualquer forma
+    //public,  não há protecão pode ser acessada de qualquer forma
     //pretected  pode somente ser acessada pela classe de origem  pela herança
     //private pode ser manipulada somente pela classe que foi criada 
+
+
+
+
+
+
 
     class Produto {
         public $moveis = "Madeira Aglomerado";
@@ -26,13 +32,13 @@
     
 
     class ProdutoEspecial{
-        public function alterarMaterial($obj) {
-            $obj->moveis = "Madeira em MDF";
+        public function alterarMaterial($sofa) {
+            $sofa->moveis = "Madeira em MDF";
             // atraves desse método pode alterar a classe produto
         }
 
-        public function garantiaExtendida($obj){
-            $obj->garantia="2 anos";
+        public function garantiaExtendida( $sofa){
+            $sofa->garantia="2 anos";
         }
 
         public function descontoE($sofa,$desconto){
@@ -66,8 +72,23 @@
    // $d->descontoEspecial($sofa); não conseguimos acessar por ser private
    // echo $d->sofa. "<br>";
 
-    //echo $sofa->desc. ('80$'); não conseguimos alterar também
+   //echo $sofa->desc. ('80$'); não conseguimos alterar também
 
-    // podemos alterar por meio do objeto outro objeto as propriedades que estão public
+   // podemos alterar por meio do objeto outro objeto as propriedades que estão public
 
 ?>
+
+
+
+
+    
+  
+    
+    
+    
+  
+    
+
+
+
+

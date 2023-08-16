@@ -20,5 +20,18 @@
     //funções do php
     echo strtoupper("vai converter em caixa alta");
 
+
+
+    
+
+
+
+
+
+
+
+
+
+
 ?>
 

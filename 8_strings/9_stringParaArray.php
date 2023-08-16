@@ -19,13 +19,13 @@
         echo"$txt[$i]";
 
     }
+   
 
     echo"<br>";
     echo"<br>";
     # convertendo array para string
-
     $lista = ["Game","Geladeira","Maquina de lavar","Computador"];
-    $textoString = implode("---", $lista);
+    $textoString = implode("=", $lista);
 
     print_r($lista);
     echo"<br>";

@@ -7,9 +7,24 @@
 
 
     #Soma
-    echo("A soma é: " .$a+$b);
+    ("A soma é: " .$a+$b);
 
     #faça o restante dos exercicios
 
     # subtrair, dividir, multiplicar, dividir , petencia **  , 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ?>

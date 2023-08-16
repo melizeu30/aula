@@ -62,7 +62,21 @@
 
 
 
+    
 
+
+    function concessonariasomaritens($rodas, $pelicula, $multimidia, $metalico){
+
+
+        return $rodas+ $pelicula+$multimidia+ $metalico;
+
+
+
+    }
+    echo"<br>";
+    echo concessonaria(1500,400,2000,1750);
+
+ 
 
 
 

@@ -1,6 +1,6 @@
 <?php
 
-    class Produto{
+    class ProdutoEletronico{
         public $volt;  // podemos chamar propriedades com o this
         public $cor; 
 
@@ -13,25 +13,49 @@
         }
 
         function transporteNormal(){
-            return "10 dias para chegar em sua residência <br>";           
+            return "10 dias para chegar em sua residencia <br>";           
 
         }
 
         function transporteNormal1(){
             return strtoupper($this->transporteNormal()); // podemos chamar os metedos com o this
+           
         }
 
     }
 
-    $geladeira = new Produto;  // palavra new e usada para instancia um objeto da classe produto
+    $geladeira = new ProdutoEletronico;  // palavra new e usada para instancia um objeto da classe produto
+    $celular   = new ProdutoEletronico;
 
-    $geladeira->voltagem(220);
-    $geladeira->cor("Branca");
+
+
+  
+    $celular->voltagem("220");
+    $celular->cor('Branco');
    
-    echo "Sua escolha foi $geladeira->volt  <br>";    
-    echo "Voce escolheu cor:  $geladeira->cor <br>";
-    echo $geladeira->transporteNormal();
-    echo $geladeira->transporteNormal1();
+    echo "Sua escolha foi $celular->volt  <br>";    
+    echo "Voce escolheu cor:  $celular->cor <br>";   
+    echo $celular->transporteNormal1();
+
+
+ 
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 
 

@@ -1,37 +1,6 @@
 <?php
     #criação de novos indices no array
-    #  lista = [1,2,"Andre", 2500] estrutura do array
-    #adicionar arrays
-    $lista = [];
-
-    print_r($lista);
-    echo"<br>";
-    echo"<br>";
-
-    $lista[0]="Roberto";    
-    $lista[1]= 25;
-    $lista[3]="Carlas";
-    $lista[1000]="Carlas";
-
-
-    print_r($lista);
-    echo"<br>";
-
-    #somar subtrair mulplicar e dividar 
-    $lista[1] *= 25;
-    print_r($lista);
-    echo"<br>";
-    echo"<br>"; 
-    echo"<br>"; 
-
-   #somar itens de uma array usando array_sum se conter string vai ser ignorado
-   $tabela = [1,3,50,5,6,4,80,9,10,1];
-   $soma = array_sum($tabela);
-   print_r($tabela);
-   echo"<br>"; 
-   echo $soma;
-   echo"<br>";   
-
+ 
 
 
     #array associativo
@@ -135,18 +104,6 @@
     echo"<br>";
     echo"<br>"; 
 
-
-
-
-
-
-
-  
-  
-  
-
-
-
     #Adicionar no fim do arry adicionar a atribuição que sera adicionar no final do indice
     echo"<br>";
     echo"<br>";
@@ -244,7 +201,7 @@
 
      #função in_array se o que for solicitado esta no array retorna false ou true
 
-     if(in_array(100,$valores)){
+     if(in_array(10,$valores)){
         echo"Encontrado ";
      }else{
         echo"Não Encontrado o numero ";
@@ -261,8 +218,7 @@
      $nomes=["Marcos","Bianca","Paulo"];
 
     
-     $unindotabelas = array_merge($tab1,$tab2,$tab3,$nomes,[30,31]);
-
+     $unindotabelas = array_merge($tab1,$tab2,$tab3,$nomes,[30,31],("ANDRE"));
      print_r($unindotabelas);
      echo"<br>";
      echo"<br>";

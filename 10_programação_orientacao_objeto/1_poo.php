@@ -50,4 +50,48 @@ echo $xiquinha -> cor;
 
 
 
+
+
+class ProdutoEletronico{
+    public $voltagem1 = "220v";
+    public $voltagem2 = "110v";
+    public $voltagem3 = "bivolt";
+ 
+
+
+   function desconto($valor){// posso acessar na classe
+        echo   $valor - ($valor*0.10);
+        echo"<br>";
+    }
+  
+}
+
+$celular = new ProdutoEletronico;
+$geladeira = new ProdutoEletronico;
+
+echo"<br>";
+echo"<br>";
+
+echo $celular->desconto(9580). "Autorizado <BR>";
+echo $celular->voltagem3;
+
+echo"<br>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ?>

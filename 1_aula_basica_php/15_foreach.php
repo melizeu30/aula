@@ -10,6 +10,20 @@
     }
 
 
+    echo"<br>";
+    echo"<br>";
+    echo"<br>";
+
+    print_r($alunos);
+
+
+
+
+
+
+
+
+
 
 
 

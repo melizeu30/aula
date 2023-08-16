@@ -2,7 +2,7 @@
 
     # função parse_ulr  e retornado host, protocolo, e paramêtros
 
-    $url = "https://www.uol.com.br";
+    $url = /"https:/www.uol.com.br";
 
     $ulrdecompor = parse_url($url);
 

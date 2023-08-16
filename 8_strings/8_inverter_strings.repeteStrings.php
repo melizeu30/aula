@@ -2,7 +2,6 @@
 
 
     $palavra = "MUNDO";
-
     $inverter = strrev($palavra);
 
     echo $palavra;
